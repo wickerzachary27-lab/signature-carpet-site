@@ -56,7 +56,7 @@ export default function BeforeAfterSlider() {
         <div className="max-w-3xl mx-auto">
           <div
             ref={containerRef}
-            className="relative aspect-[16/10] rounded-lg overflow-hidden cursor-col-resize select-none touch-none"
+            className="relative w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden cursor-col-resize select-none touch-none"
             onPointerDown={handlePointerDown}
             onPointerMove={handlePointerMove}
             onPointerUp={handlePointerUp}
