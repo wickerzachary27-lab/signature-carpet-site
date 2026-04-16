@@ -7,20 +7,20 @@ interface GalleryImage {
 
 const IMAGES: GalleryImage[] = [
   {
-    src: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80",
-    alt: "Carpeted living room interior",
+    src: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+    alt: "Professional cleaning service",
   },
   {
-    src: "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=800&q=80",
-    alt: "Close-up carpet texture",
+    src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80",
+    alt: "Carpet cleaning work",
   },
   {
     src: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
     alt: "Carpet cleaning in progress",
   },
   {
-    src: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=800&q=80",
-    alt: "Clean carpeted room",
+    src: "https://images.unsplash.com/photo-1527515545081-5db817172677?w=800&q=80",
+    alt: "Clean interior with carpet",
   },
   {
     src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
