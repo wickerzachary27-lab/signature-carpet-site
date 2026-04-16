@@ -76,18 +76,21 @@ const SERVICES: Service[] = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-28 bg-cream">
+    <section id="services" className="py-20 md:py-28 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-display text-4xl md:text-5xl font-semibold text-navy text-center mb-16">
+        <div className="w-16 h-0.5 bg-teal mx-auto mb-6" />
+        <h2 className="font-display text-4xl md:text-6xl font-semibold text-navy text-center mb-16">
           What We Clean
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICES.map((service) => (
             <div
               key={service.name}
-              className="bg-white rounded-lg p-8 border border-transparent hover:border-teal hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md border-l-2 border-transparent hover:border-teal transition-all duration-300 hover:-translate-y-1"
             >
-              <service.Icon className="text-teal mb-4" size={32} strokeWidth={1.5} />
+              <div className="w-14 h-14 rounded-full bg-teal/10 flex items-center justify-center mb-5">
+                <service.Icon className="text-teal" size={26} strokeWidth={1.5} />
+              </div>
               <h3 className="font-display text-xl font-semibold text-navy mb-2">
                 {service.name}
               </h3>

@@ -9,7 +9,7 @@ export default function Hero() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+        src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1920&q=80"
         alt=""
         fill
         priority
@@ -17,7 +17,7 @@ export default function Hero() {
         sizes="100vw"
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-navy/85" />
+      <div className="absolute inset-0 bg-navy/60" />
       {/* Texture overlay */}
       <div
         className="absolute inset-0 opacity-[0.03]"
@@ -27,18 +27,27 @@ export default function Hero() {
         }}
       />
 
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <p className="text-teal text-sm md:text-base tracking-[0.25em] uppercase font-body mb-6">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
+        {/* Decorative vertical line above eyebrow */}
+        <div className="w-px h-16 bg-teal/40 mb-6 animate-fade-up" />
+
+        <p className="text-teal text-sm md:text-base tracking-[0.25em] uppercase font-body mb-6 animate-fade-up-delay-1">
           Eugene, Oregon &middot; Est. 25+ Years
         </p>
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-semibold text-cream leading-tight">
+
+        {/* Thin horizontal rule between eyebrow and headline */}
+        <div className="w-24 border-t border-cream/20 mb-8 animate-fade-up-delay-1" />
+
+        <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-cream leading-tight animate-fade-up-delay-2">
           Don&apos;t Replace It&thinsp;&mdash;&thinsp;Renew It.
         </h1>
-        <p className="mt-6 text-lg md:text-xl text-cream/80 max-w-2xl mx-auto font-body leading-relaxed">
+        <p className="mt-6 text-lg md:text-xl text-cream/80 max-w-2xl mx-auto font-body leading-relaxed animate-fade-up-delay-3">
           Eugene&apos;s trusted carpet and upholstery cleaning specialists.
           Residential, commercial, and rental properties.
         </p>
-        <HeroCTAs />
+        <div className="animate-fade-up-delay-3">
+          <HeroCTAs />
+        </div>
       </div>
     </section>
   );

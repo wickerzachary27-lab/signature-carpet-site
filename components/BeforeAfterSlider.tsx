@@ -48,15 +48,19 @@ export default function BeforeAfterSlider() {
   }, []);
 
   return (
-    <section id="gallery" className="py-20 md:py-28 bg-white">
+    <section id="gallery" className="py-20 md:py-28 bg-navy">
       <div className="max-w-7xl mx-auto px-6">
-        <h2 className="font-display text-4xl md:text-5xl font-semibold text-navy text-center mb-16">
+        <div className="w-16 h-0.5 bg-teal mx-auto mb-6" />
+        <h2 className="font-display text-4xl md:text-6xl font-semibold text-cream text-center mb-6">
           The Signature Difference
         </h2>
+        <p className="text-cream/70 font-body text-center max-w-xl mx-auto mb-16">
+          Drag the handle to see the transformation.
+        </p>
         <div className="max-w-3xl mx-auto">
           <div
             ref={containerRef}
-            className="relative w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden cursor-col-resize select-none touch-none"
+            className="relative w-full h-[480px] md:h-[600px] rounded-lg overflow-hidden cursor-col-resize select-none touch-none shadow-2xl"
             onPointerDown={handlePointerDown}
             onPointerMove={handlePointerMove}
             onPointerUp={handlePointerUp}
@@ -72,7 +76,7 @@ export default function BeforeAfterSlider() {
 
             {/* Before image (clipped) */}
             <div
-              className="absolute inset-0"
+              className="absolute inset-0 overflow-hidden"
               style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
             >
               <Image
@@ -109,10 +113,10 @@ export default function BeforeAfterSlider() {
             </div>
 
             {/* Labels */}
-            <span className="absolute top-4 left-4 bg-navy/70 text-cream px-3 py-1 rounded text-xs font-display tracking-wider uppercase z-10">
+            <span className="absolute top-5 left-5 text-cream font-display text-lg tracking-[0.3em] uppercase z-10 [text-shadow:_0_1px_8px_rgba(0,0,0,0.6)]">
               Before
             </span>
-            <span className="absolute top-4 right-4 bg-navy/70 text-cream px-3 py-1 rounded text-xs font-display tracking-wider uppercase z-10">
+            <span className="absolute top-5 right-5 text-cream font-display text-lg tracking-[0.3em] uppercase z-10 [text-shadow:_0_1px_8px_rgba(0,0,0,0.6)]">
               After
             </span>
           </div>

@@ -33,14 +33,14 @@ export default function Navbar() {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-navy shadow-lg"
+            ? "bg-navy shadow-lg border-b border-cream/10"
             : "bg-transparent"
         }`}
       >
         <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
           <button
             onClick={() => scrollTo("hero")}
-            className="font-display text-xl md:text-2xl font-semibold text-cream tracking-wide"
+            className="font-display text-2xl md:text-2xl font-semibold text-cream tracking-[0.08em]"
           >
             Signature Carpet Cleaning
           </button>
@@ -51,7 +51,7 @@ export default function Navbar() {
               <button
                 key={link.target}
                 onClick={() => scrollTo(link.target)}
-                className="text-cream/80 hover:text-cream transition-colors text-sm tracking-wide uppercase font-body"
+                className="nav-underline text-cream/80 hover:text-cream transition-colors text-sm tracking-wide uppercase font-body"
               >
                 {link.label}
               </button>
