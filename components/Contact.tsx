@@ -1,4 +1,4 @@
-import { Phone, MapPin, Calendar } from "lucide-react";
+import { Phone, MapPin, Calendar, Clock } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 export default function Contact() {
@@ -41,6 +41,16 @@ export default function Contact() {
                   <p className="text-cream font-body">
                     1070 S Bertelsen Rd, Eugene, OR 97402
                   </p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-teal/15 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Clock className="text-teal" size={22} strokeWidth={1.5} />
+                </div>
+                <div>
+                  <p className="text-cream/50 text-sm font-body">Hours</p>
+                  <p className="text-cream font-body">Mon–Fri 9am–5pm</p>
                 </div>
               </div>
 
