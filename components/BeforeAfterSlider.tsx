@@ -63,7 +63,7 @@ export default function BeforeAfterSlider() {
           >
             {/* After image (full width behind) */}
             <Image
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80"
+              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1200&q=80"
               alt="Clean carpet after professional cleaning"
               fill
               className="object-cover"
