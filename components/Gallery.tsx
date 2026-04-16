@@ -7,28 +7,28 @@ interface GalleryImage {
 
 const IMAGES: GalleryImage[] = [
   {
-    src: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80",
-    alt: "Professional carpet cleaning in progress",
+    src: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&q=80",
+    alt: "Carpeted living room interior",
   },
   {
-    src: "https://images.unsplash.com/photo-1527515545081-5db817172677?w=800&q=80",
-    alt: "Bright clean living room with freshly cleaned carpet",
+    src: "https://images.unsplash.com/photo-1558997519-83ea9252edf8?w=800&q=80",
+    alt: "Close-up carpet texture",
   },
   {
-    src: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80",
-    alt: "Clean residential interior",
+    src: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
+    alt: "Carpet cleaning in progress",
   },
   {
-    src: "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=800&q=80",
-    alt: "Freshly cleaned bright living room",
+    src: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?w=800&q=80",
+    alt: "Clean carpeted room",
   },
   {
-    src: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800&q=80",
-    alt: "Clean sofa and upholstery after professional cleaning",
+    src: "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+    alt: "Hotel room with clean carpet",
   },
   {
-    src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
-    alt: "Clean bright interior",
+    src: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=800&q=80",
+    alt: "Clean bright carpeted room",
   },
 ];
 
