@@ -1,7 +1,7 @@
 const STATS = [
   { number: "25+", label: "Years in Business" },
   { number: "2,000+", label: "Rental Units Served" },
-  { number: "3", label: "Major Eugene Institutions" },
+  { number: "100%", label: "Satisfaction Guaranteed" },
 ];
 
 export default function TrustBar() {
