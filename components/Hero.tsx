@@ -39,7 +39,7 @@ export default function Hero() {
         <div className="w-24 border-t border-cream/20 mb-8 animate-fade-up-delay-1" />
 
         <h1 className="font-display text-6xl md:text-7xl lg:text-8xl font-semibold text-cream leading-tight animate-fade-up-delay-2">
-          Don&apos;t Replace It&thinsp;&mdash;&thinsp;Renew It.
+          Don&apos;t Replace It. Renew It.
         </h1>
         <p className="mt-6 text-lg md:text-xl text-cream/80 max-w-2xl mx-auto font-body leading-relaxed animate-fade-up-delay-3">
           Eugene&apos;s trusted carpet and upholstery cleaning specialists.
