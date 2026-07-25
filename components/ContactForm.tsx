@@ -45,10 +45,25 @@ export default function ContactForm() {
           </svg>
         </div>
         <h3 className="font-display text-3xl font-semibold text-cream mb-2">
-          Thank You!
+          Almost there &mdash; press send.
         </h3>
         <p className="text-cream/70 font-body">
-          Your message is ready to send. We&apos;ll get back to you shortly.
+          Your email app should have opened with your message ready to go. If
+          it didn&apos;t, email us at{" "}
+          <a
+            href="mailto:info@sigcarpet.com"
+            className="text-teal font-semibold hover:underline"
+          >
+            info@sigcarpet.com
+          </a>{" "}
+          or call{" "}
+          <a
+            href="tel:5413425326"
+            className="text-teal font-semibold hover:underline"
+          >
+            (541) 342-5326
+          </a>
+          .
         </p>
         <button
           onClick={() => setSubmitted(false)}
