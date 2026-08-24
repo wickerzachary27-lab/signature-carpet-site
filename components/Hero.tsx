@@ -9,7 +9,7 @@ export default function Hero() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1920&q=80"
+        src="/images/hero-clean-interior.jpg"
         alt=""
         fill
         priority
